@@ -1,6 +1,6 @@
 <?php
 
-class Database
+class NebulaDatabase
 {
     private string $host = 'localhost';
     private string $dbName = 'nebula_gaming';

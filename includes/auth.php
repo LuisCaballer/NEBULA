@@ -11,7 +11,7 @@ function db(): PDO
     static $pdo = null;
 
     if ($pdo === null) {
-        $database = new Database();
+        $database = new NebulaDatabase();
         $pdo = $database->connect();
     }
 
