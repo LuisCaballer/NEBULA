@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1f4a"/>
+      <stop offset="100%" stop-color="#112f68"/>
+    </linearGradient>
+    <linearGradient id="rgb" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="50%" stop-color="#00ff99"/>
+      <stop offset="100%" stop-color="#7b61ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect x="120" y="130" width="960" height="540" rx="22" fill="#0f172a" stroke="#2b3d66" stroke-width="4"/>
+  <rect x="180" y="190" width="520" height="340" rx="12" fill="#030712" stroke="#1e293b"/>
+  <circle cx="830" cy="260" r="58" fill="none" stroke="url(#rgb)" stroke-width="14"/>
+  <circle cx="830" cy="260" r="34" fill="#0b1022"/>
+  <circle cx="950" cy="260" r="58" fill="none" stroke="url(#rgb)" stroke-width="14"/>
+  <circle cx="950" cy="260" r="34" fill="#0b1022"/>
+  <rect x="760" y="360" width="250" height="22" rx="8" fill="url(#rgb)"/>
+  <rect x="760" y="400" width="210" height="22" rx="8" fill="#1f2b48"/>
+  <rect x="760" y="440" width="180" height="22" rx="8" fill="#1f2b48"/>
+  <text x="170" y="90" fill="#e2e8f0" font-size="56" font-family="Segoe UI, Arial" font-weight="700">PC Gamer Orion X</text>
+  <text x="170" y="580" fill="#93c5fd" font-size="34" font-family="Segoe UI, Arial">Ryzen 7 • 32GB RAM • RTX 4070 • SSD 1TB</text>
+</svg>
