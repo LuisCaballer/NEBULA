@@ -6,13 +6,12 @@ if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
-function db(): PDO
+function db(): \PDO
 {
     static $pdo = null;
 
     if ($pdo === null) {
-        $database = new NebulaDatabase();
-        $pdo = $database->connect();
+        $pdo = connectDatabase();
     }
 
     return $pdo;
